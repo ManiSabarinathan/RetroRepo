@@ -11,8 +11,8 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Controller implements Callback<StoreDetailsResponse> {
-	 // static final String Store_URL = "https://api.macys.com/store/v2/stores?_expand=buildings&latitude=40.75066929&longitude=-73.98908937";
-	 static final String Store_URL="https://api.macys.com/store/v2/";
+	 // static final String Store_URL = "https://api.XXXX.com/store/v2/stores?_expand=buildings&latitude=40.75066929&longitude=-73.98908937";
+	 static final String Store_URL="https://api.XXXX.com/store/v2/";
 	 
 	    public void start() {
 	    	//GSON declaration
